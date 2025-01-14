@@ -1,0 +1,36 @@
+*{
+    font-family: "Work Sans", serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 112px;
+    height: 80px;
+}
+nav div ul{
+    display: flex;
+    gap: 50px;
+}
+nav div ul li a{
+    text-decoration: none;
+    color: rgb(20, 23, 31);
+    font-size: 18px;
+    font-weight: 400;
+}
+nav h1{
+    color: rgb(41, 71, 169);
+    font-size: 30px;
+    font-weight: 700;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+nav .logo img{
+    margin-right: 14px;
+}
+#Contact{
+    color: rgb(249, 153, 93);
+    font-weight: 600;
+}
